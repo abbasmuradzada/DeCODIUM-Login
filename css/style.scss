@@ -1,0 +1,183 @@
+$pageheight : 860px;
+$fontf: SegoeUI, Segoe UI;
+@mixin font($size,$color, ) {
+    font-size: $size;
+    color: $color;
+    // font-family: $family;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    // background-color: blue;
+}
+#login{
+    width: 504px+605px+202px;
+    height: $pageheight;
+    margin: auto;
+    // margin-top: 110px;
+    // background-color: red;
+}
+
+#leftcontent{
+    width: 504px;
+    height: $pageheight;
+    background-color: #ecebe6;
+    display: inline-block;
+    position: relative;
+    img{
+        position: absolute;
+    }
+}
+
+#bgimage{
+    top: 0px;
+    left: 0px;
+}
+
+
+#bgcontent{
+    left: 19px;
+    top: 168.2px;
+}
+
+#rightcontent{
+    width: 202px+578px;
+    height: $pageheight;
+    // display: inline-block;
+    // background-color: green;
+    margin-left: 23px;
+    float: right;
+}
+
+.firstfont{
+    @include font(20px,#707070ed,);
+    font-family: $fontf;
+    height: 27px;
+    
+}
+
+#firstfont{
+    margin-top: 63px;
+    float: right;
+}
+
+.secondfont{
+    margin-top: 118px;
+    float: left;
+}
+// #lastfont{
+//     float: right;
+// }
+
+#right-center-content{
+    width: 541px;
+    height: 57px+386px+30px;
+    background-color: white;
+    margin: auto;
+    margin-top: 175px;
+    h1{
+        @include font(43px,#707070,);
+        font-family: SegoeUIBlack, Segoe UI;
+        margin: auto;
+    }
+}
+
+#description{
+    @include font(20px,#707070,);
+    font-family: $fontf;
+    // width: 447px;
+    // height: 62px;
+    // background-color: blue;
+    text-align: center;
+    margin: auto;
+    margin-top: 42px;
+}
+
+.input{
+    width: 446px;
+    height: 80px;
+    // background-color: purple;
+    margin: auto;
+    box-shadow: 0px 12px 40px;
+    position: relative;
+    ::placeholder{
+        @extend %placeholder;
+    }
+}
+
+#first-input{
+    margin-bottom: 3.5px;
+    margin-top: 64.8px;
+    #emailinput{
+        width: 6px;
+        height: 80px;
+        background-color: #1c19d3;
+        display: inline-block;
+    }
+    input{
+        height: 78px;
+        width: 446px-6px;
+        // display: inline-block;
+        float: right;
+        border: none;
+        font-size: 18px;
+        position: relative;
+        z-index: 1;
+        outline: none;
+        
+    }
+    }
+
+%placeholder{
+    font-size: 18px;
+    color: #707070;
+    margin-left: 31px;
+    font-family: $fontf;
+}
+
+#forgot-password{
+    position: absolute;
+    // top: -10px;
+    height: 19px;
+    // background-color: red;
+    right: 40.8px;
+    bottom: 31.5px;
+    @include font(14px,#707070);
+    font-family: SegoeUI, Segoe UI;
+    opacity: 0.3;
+}
+
+#second-input input{
+    width: 446px;
+    height: 78px;
+    border: none;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+    outline: none;
+}
+#submit{
+    width: 446px;
+    margin: auto;
+    // background-color: blue;
+    margin-top: 52.5px;
+}
+
+#submit button{
+    width: 113px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    float: right;
+    outline: none;
+    span{
+        @include font(20px,#707070);  
+        font-family: SegoeUIBlack, Segoe UI;
+        font-weight: 700;
+        float: left;
+    }
+}   img{
+    float: right;
+}
+

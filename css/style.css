@@ -1,0 +1,189 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#login {
+  width: 1311px;
+  height: 860px;
+  margin: auto;
+}
+
+#leftcontent {
+  width: 504px;
+  height: 860px;
+  background-color: #ecebe6;
+  display: inline-block;
+  position: relative;
+}
+
+#leftcontent img {
+  position: absolute;
+}
+
+#bgimage {
+  top: 0px;
+  left: 0px;
+}
+
+#bgcontent {
+  left: 19px;
+  top: 168.2px;
+}
+
+#rightcontent {
+  width: 780px;
+  height: 860px;
+  margin-left: 23px;
+  float: right;
+}
+
+.firstfont {
+  font-size: 20px;
+  color: #707070ed;
+  font-family: SegoeUI, Segoe UI;
+  height: 27px;
+}
+
+#firstfont {
+  margin-top: 63px;
+  float: right;
+}
+
+.secondfont {
+  margin-top: 118px;
+  float: left;
+}
+
+#right-center-content {
+  width: 541px;
+  height: 473px;
+  background-color: white;
+  margin: auto;
+  margin-top: 175px;
+}
+
+#right-center-content h1 {
+  font-size: 43px;
+  color: #707070;
+  font-family: SegoeUIBlack, Segoe UI;
+  margin: auto;
+}
+
+#description {
+  font-size: 20px;
+  color: #707070;
+  font-family: SegoeUI, Segoe UI;
+  text-align: center;
+  margin: auto;
+  margin-top: 42px;
+}
+
+.input {
+  width: 446px;
+  height: 80px;
+  margin: auto;
+  -webkit-box-shadow: 0px 12px 40px;
+          box-shadow: 0px 12px 40px;
+  position: relative;
+}
+
+#first-input {
+  margin-bottom: 3.5px;
+  margin-top: 64.8px;
+}
+
+#first-input #emailinput {
+  width: 6px;
+  height: 80px;
+  background-color: #1c19d3;
+  display: inline-block;
+}
+
+#first-input input {
+  height: 78px;
+  width: 440px;
+  float: right;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  z-index: 1;
+  outline: none;
+}
+
+.input ::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #707070;
+  margin-left: 31px;
+  font-family: SegoeUI, Segoe UI;
+}
+
+.input :-ms-input-placeholder {
+  font-size: 18px;
+  color: #707070;
+  margin-left: 31px;
+  font-family: SegoeUI, Segoe UI;
+}
+
+.input ::-ms-input-placeholder {
+  font-size: 18px;
+  color: #707070;
+  margin-left: 31px;
+  font-family: SegoeUI, Segoe UI;
+}
+
+.input ::placeholder {
+  font-size: 18px;
+  color: #707070;
+  margin-left: 31px;
+  font-family: SegoeUI, Segoe UI;
+}
+
+#forgot-password {
+  position: absolute;
+  height: 19px;
+  right: 40.8px;
+  bottom: 31.5px;
+  font-size: 14px;
+  color: #707070;
+  font-family: SegoeUI, Segoe UI;
+  opacity: 0.3;
+}
+
+#second-input input {
+  width: 446px;
+  height: 78px;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  outline: none;
+}
+
+#submit {
+  width: 446px;
+  margin: auto;
+  margin-top: 52.5px;
+}
+
+#submit button {
+  width: 113px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  float: right;
+  outline: none;
+}
+
+#submit button span {
+  font-size: 20px;
+  color: #707070;
+  font-family: SegoeUIBlack, Segoe UI;
+  font-weight: 700;
+  float: left;
+}
+
+img {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
